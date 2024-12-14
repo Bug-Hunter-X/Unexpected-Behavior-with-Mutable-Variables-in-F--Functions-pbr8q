@@ -1,0 +1,3 @@
+# Unexpected Behavior with Mutable Variables in F# Functions
+
+This example demonstrates a common pitfall in F# when working with mutable variables within functions.  The `add2` function attempts to modify the values of `x` and `y`, but this does not affect the original variables outside the function's scope.  The solution shows how to correctly handle mutable variables or use immutability for better predictability.
